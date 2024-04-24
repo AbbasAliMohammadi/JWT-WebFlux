@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS  tbl_permission(
+    id SERIAL PRIMARY KEY,
+    permission VARCHAR(255) UNIQUE NOT NULL
+);

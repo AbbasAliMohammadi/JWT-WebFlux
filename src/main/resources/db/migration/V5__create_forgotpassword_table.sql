@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS tbl_forgotpassword(
+  id SERIAL PRIMARY KEY,
+  otp INT NOT NULL,
+  ex_date DATE NOT NULL
+)
